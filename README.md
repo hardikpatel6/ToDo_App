@@ -156,20 +156,6 @@ npm run build
 npm run lint
 ```
 
-## Common Issues
-
-### 500 on POST /todo
-
-Possible reasons:
-- MongoDB not running
-- Invalid request payload
-- Invalid status value that cannot be normalized
-
-Quick checks:
-- Confirm backend is running on port `4000`
-- Confirm frontend `.env` points to backend base URL
-- Confirm MongoDB is running locally
-
 ## License
 
 ISC
